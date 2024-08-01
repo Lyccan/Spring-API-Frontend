@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.courseName {
+    width: 350px;
+    height: 32px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.institution {
+    width: 350px;
+    height: 32px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.workload {
+    width: 116px;
+    height: 28px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.btnsubmit {
+    background-color: black;
+    color: white;
+    height: 32px;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.bi-house-door-fill {
+    font-size: 32px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    fill: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.bi-house-door-fill:hover {
+    background-color: rgb(61, 61, 61);
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.title {
+    font-size: 28px;
+    font: 500;
+    font-family: monospace;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+input {
+    outline: none;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size: larger;
+    font: 700;
+    font-family: monospace;
+}
+
+body {
+    overflow: hidden;
+}
